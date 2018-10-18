@@ -14,7 +14,12 @@ public class Ejercicio04 {
 		numero = entrada.nextInt();
 
 		while (numero != 3) {
-			System.out.println("Incorrecto, otro numero entre el 1 y el 5: ");
+			if (numero < 1 || numero > 5) {
+				System.out.println("Se esperaba un número entre 1 y 5");
+			} else {
+				System.out.println("Incorrecto, otro numero entre el 1 y el 5: ");
+			}
+
 			numero = entrada.nextInt();
 		}
 
