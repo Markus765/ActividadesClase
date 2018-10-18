@@ -1,0 +1,17 @@
+package condicionales;
+
+public class Ejemplo05 {
+	
+	public static void main(String[] args) {
+		
+		String nombre;
+		int edad;
+		System.out.println("");
+		
+		
+		
+		
+		
+	}
+
+}

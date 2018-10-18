@@ -1,0 +1,20 @@
+package condicionales;
+
+import java.util.Scanner;
+
+public class Ejercicio07 {
+
+	public static void main(String[] args) {
+
+		final int SECRETO = 7;
+		
+		Scanner entrada = new Scanner(System.in);
+		int numero;
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package bucles;
+
+import java.util.Scanner;
+
+public class Ejercicio01 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		String usuario;
+		int contador = 1;
+
+		System.out.println("Pide un caracter");
+		usuario = entrada.nextLine();
+
+		while (contador <= 100) {
+			System.out.println(contador + usuario);
+			contador++;
+		}
+
+	}
+
+}

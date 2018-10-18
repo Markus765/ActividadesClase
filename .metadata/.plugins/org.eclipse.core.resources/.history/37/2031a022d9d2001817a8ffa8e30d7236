@@ -1,0 +1,22 @@
+package condicionales;
+
+import java.util.Scanner;
+
+public class Ejercicio22 {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		String dia;
+		String cierre;
+		
+		System.out.println("Día?");
+		dia = entrada.nextLine();
+		
+		cierre = (dia.equals("entre semana")) ? "20:00":"14:00";
+		
+		
+	}
+	
+}

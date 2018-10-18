@@ -1,0 +1,32 @@
+package condicionales;
+
+import java.util.Scanner;
+
+/*
+Ejercicio que pida las notas de tres evaluaciones y
+calcule la media.
+ */
+
+public class Ejemplo04 {
+
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+
+		float eval1, eval2, eval3;
+		float media;
+
+		System.out.print("Nota 1ª Eval: ");
+		eval1 = entrada.nextFloat();
+		System.out.print("Nota 2ª Eval: ");
+		eval2 = entrada.nextFloat();
+		System.out.print("Nota 3ª Eval: ");
+		eval3 = entrada.nextFloat();
+
+		media = (eval1 + eval2 + eval3) / 3;
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package condicionales;
+
+// Programa que repita nuestro nombre 1000 veces.
+public class Ejemplo06 {
+
+	public static void main(String[] args) {
+		
+		int contador = 1;
+		
+		while(contador <= 1000 ) {
+			
+			System.out.println(contador + "\tCarlos");
+			contador++;
+			contador = contador - 1;
+			contador--;
+			
+		}
+		
+		System.out.println("Ya tienes las 1000 impresiones.");
+		
+	}
+
+}

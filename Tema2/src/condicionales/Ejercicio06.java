@@ -1,0 +1,41 @@
+package condicionales;
+
+import java.util.Scanner;
+
+public class Ejercicio06 {
+
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);	
+		float precio;
+		int unidades;
+		float precioTotal;
+		float descuento;
+		float descuentoEnEuros;
+		
+		System.out.println("Precio del producto:");
+		precio = entrada.nextFloat();
+		
+		System.out.println("Unidades:");
+		unidades = entrada.nextInt();
+		
+		precioTotal = precio * unidades;
+		
+		if(precioTotal > 75) {
+			descuento = 15;
+		}else {
+			descuento = 5;
+		}
+		
+		descuentoEnEuros = precioTotal * descuento / 100;
+		precioTotal = precioTotal - descuentoEnEuros;
+		
+		System.out.println("Total de la compra: " + 
+				precioTotal + " €.");
+	
+		
+		
+		
+	}
+
+}
